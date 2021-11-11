@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_plus">
+    <fragment
+        android:id="@+id/nav_plus"
+        android:name="com.mhl.myapplication.ui.plus.PlusFragment"
+        android:label="Сложение"
+        tools:layout="@layout/fragment_plus" />
+
+    <fragment
+        android:id="@+id/nav_minus"
+        android:name="com.mhl.myapplication.ui.minus.MinusFragment"
+        android:label="Вычитание"
+        tools:layout="@layout/fragment_minus" />
+    <fragment
+        android:id="@+id/nav_multiple"
+        android:name="com.mhl.myapplication.ui.multiple.MultipleFragment"
+        android:label="Умножение"
+        tools:layout="@layout/multiple_fragment" />
+    <fragment
+        android:id="@+id/nav_divide"
+        android:name="com.mhl.myapplication.ui.divide.DivideFragment"
+        android:label="Деление"
+        tools:layout="@layout/fragment_divide" />
+    <fragment
+        android:id="@+id/nav_shop"
+        android:name="com.mhl.myapplication.ui.shop.ShopFragment"
+        android:label="Магазин"
+        tools:layout="@layout/fragment_shop" />
+
+</navigation>
